@@ -10,6 +10,10 @@
 		278F1F992BCBC6C000F577A5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 278F1F982BCBC6C000F577A5 /* main.cpp */; };
 		278F1FB62BCC277100F577A5 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 278F1FB52BCC277100F577A5 /* OpenGL.framework */; };
 		278F1FB82BCC278200F577A5 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 278F1FB72BCC278200F577A5 /* GLUT.framework */; };
+		278F1FB92BCC348200F577A5 /* libglfw.3.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 278F1FA82BCBCD8700F577A5 /* libglfw.3.4.dylib */; };
+		278F1FBA2BCC348200F577A5 /* libglfw.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 278F1FA92BCBCD8700F577A5 /* libglfw.3.dylib */; };
+		278F1FBB2BCC348200F577A5 /* libglfw.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 278F1FAA2BCBCD8700F577A5 /* libglfw.dylib */; };
+		278F1FBC2BCC348200F577A5 /* libglfw3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 278F1FAB2BCBCD8700F577A5 /* libglfw3.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,6 +51,10 @@
 			files = (
 				278F1FB82BCC278200F577A5 /* GLUT.framework in Frameworks */,
 				278F1FB62BCC277100F577A5 /* OpenGL.framework in Frameworks */,
+				278F1FB92BCC348200F577A5 /* libglfw.3.4.dylib in Frameworks */,
+				278F1FBA2BCC348200F577A5 /* libglfw.3.dylib in Frameworks */,
+				278F1FBB2BCC348200F577A5 /* libglfw.dylib in Frameworks */,
+				278F1FBC2BCC348200F577A5 /* libglfw3.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,7 +324,7 @@
 				DEVELOPMENT_TEAM = 46BY5TL242;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
-				"HEADER_SEARCH_PATHS[arch=*]" = /opt/homebrew/Cellar/glfw/3.4/include;
+				"HEADER_SEARCH_PATHS[arch=*]" = "/opt/homebrew/Cellar/glfw/3.4/include/**";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/opt/homebrew/Cellar/glfw/3.4/lib,
@@ -335,6 +343,7 @@
 				DEVELOPMENT_TEAM = 46BY5TL242;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				"HEADER_SEARCH_PATHS[arch=*]" = "/opt/homebrew/Cellar/glfw/3.4/include/**";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/opt/homebrew/Cellar/glfw/3.4/lib,
