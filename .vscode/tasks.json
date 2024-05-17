@@ -14,7 +14,8 @@
             "group": {
                 "kind": "build",
                 "isDefault": true
-            }
+            },
+            "problemMatcher": ["$gcc"]
         },
         {
             "label": "build",
@@ -28,7 +29,8 @@
                 "kind": "build",
                 "isDefault": true
             },
-            "dependsOn": "configure"
+            "dependsOn": "configure",
+            "problemMatcher": ["$gcc"]
         }
     ]
 }

@@ -5,7 +5,7 @@
             "name": "C++ Launch (LLDB)",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/glfw_project",
+            "program": "${workspaceFolder}/build/glfw_glad_project",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
